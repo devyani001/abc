@@ -210,14 +210,14 @@
 
                 .owner {
                     position: absolute;
-                    left: 40px;
+                    left: 30px;
                     color: rgb(254, 254, 254);
                     font-size: 15px;
                 }
 
                 .devil-emoji {
                     position: absolute;
-                    left: 300px;
+                    left: 290px;
                     color: rgb(255, 255, 255);
                 }
 
