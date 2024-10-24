@@ -250,8 +250,9 @@
 
                 }
 
-                .abc {
-                    background-image: url("https://i.pinimg.com/enabled_hi/236x/59/3e/49/593e49c1e645f79a461decdef17f84f7.jpg");
+                #vdobg {
+                    background-color: #0d2436;
+                    
                 }
 
 
