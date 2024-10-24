@@ -497,4 +497,35 @@ video {
     border: 1px solid #ccc; 
     box-sizing: border-box;
 }
+
+/* devil emoji */ 
+
+
+   
+#owner-names {
+    margin-top: 20px;
+    margin-bottom: 50px;
+     border: 1px solid none;
+     /* display: inline; */ 
+     font-family: 'poppins';
+}
+
+#devil-emojis img {
+    height: 16px;
+    width: 16px;
+    border: 1px solid none; 
+    /* padding-top: 20px; */
+    /* background-size: cover; */
+    margin-top: 22px;
+    margin-left: 5px;
+    /* display: inline; */ 
+} 
+
 /* --------------------------------------------- */
+/* .aboutpage img{ 
+    width: 100%;
+    height: 500px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; 
+     
+}  */
