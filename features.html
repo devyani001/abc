@@ -78,7 +78,7 @@
 
 <!-- <div class="footimg" style="background-image: url(C:\Users\ASUS\OneDrive\Desktop\BrainHub\Black and White Creative Profile Information LinkedIn Article Cover Image.jpg)"> -->
     <img src="Black and White Creative Profile Information LinkedIn Article Cover Image.jpg" alt="" style="width: 100%; height:250px; position:absolute;">
-    <div style="font-weight: 700; color:darkgrey; position:absolute; top:1350px; left:135px">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div>
+    <div class="uprfooter" style="font-weight: 700; color:darkgrey; position:absolute; top:1350px; left:135px">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div>
     <div class="icons" style="color:darkgrey; position:absolute; padding-top:90px; left:675px;margin-left: 20px">
         <i class="fa-brands fa-linkedin-in" id="apps" style="padding: 0 10px 0 10px;"></i>
         <i class="fa-brands fa-facebook-f" id="apps" style="padding: 0 10px 0 10px;"></i>
@@ -142,9 +142,9 @@
     
             .uprfooter {
                 
-                text-align: center;
+                position: absolute;
                 left: 0;
-                margin: 0 25px 0 25px;
+                color: black;
                 font-size: 15px;
             }
     
@@ -164,13 +164,24 @@
                 
             }
     
-            .owner {
+            .ownerd {
+                position: absolute;
                 font-size: 14px;
-                left: 35px;
+                left: 0px;
+                top: 0;
+            }
+
+            .owner-names{
+                position: absolute;
+                left: 0px;
+                top: 0;
             }
     
-            .devil-emoji {
-                left: 306px;
+            .devil-emojix {
+                position: absolute;
+                left: 0px;
+                padding-top: 0; 
+                left: 0;
             }
     
             .logo {
@@ -181,7 +192,8 @@
     
             .row {
                 display: flex;
-                flex-direction: column;
+                border: 2px solid red;
+                flex-wrap: wrap-reverse;
             }
     
             #left1{
@@ -189,10 +201,12 @@
                 text-align: center;
                 font-size: 15px;
                 font-family: 'playfair display';
+                border: 2px solid green;
             }
     
             #right1{
-                padding: 0 18px  0 18px;
+                
+                border: 2px solid yellow;
             }
     
             .bigbackground {
@@ -276,7 +290,13 @@
             padding: 0 20px 0 20px;
         }
     
-        
+        .icons{
+            position: absolute;
+            border: 2px solid goldenrod;
+            padding-top: 0; 
+            left: 0;
+            margin-left: 0;
+        }
     
     
         }
