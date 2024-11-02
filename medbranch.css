@@ -57,7 +57,7 @@
    height: 100%;
    display: flex;  
    flex-wrap: wrap; 
-   
+   border: 2px solid red;
    justify-content: center;
    /* align-items: center; */
    margin-left: 0;
@@ -65,11 +65,11 @@
     }
 
     .box {
-        border: 1px solid none;
+        border: 1px solid green;
          color: whitesmoke;
          cursor: pointer;
-         width: 15px;  
-    height: 50px; 
+         width: 300px;  
+    height: 100%; 
     text-align: center;
     margin-top: 15px;
     font-size: 14px;
